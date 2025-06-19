@@ -3,8 +3,8 @@ import pickle
 from streamlit_option_menu import option_menu
 import pandas as pd
 
-diabetes_model=pickle.load(open("C:/Users/topic/Downloads/python web app/trained_model.sav",'rb'))
-heart_disease_model=pickle.load(open("C:/Users/topic/Downloads/heart_disease_trained_model.sav",'rb'))
+diabetes_model=pickle.load(open("trained_model.sav",'rb'))
+heart_disease_model=pickle.load(open("heart_disease_trained_model.sav",'rb'))
 
 with st.sidebar:
     selected=option_menu('Multiple Disease Prediction System',
