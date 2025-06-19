@@ -142,7 +142,7 @@ if (selected=='Diabetes Prediction'):
 
         r = ranges_dict[feature_name_for_display]
         actual_unit = r.get('unit', unit)
-        status_text = f": {value} {actual_unit}"
+        status_text = f" {value} {actual_unit}"
         color = "black"
 
         if feature_name_for_display == 'Glucose Level':
