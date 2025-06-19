@@ -10,7 +10,7 @@ This Streamlit web app allows users to predict **Diabetes** and **Heart Disease*
 - Inline analysis for key health indicators (glucose, BMI, BP).
 
 ## Technologies Used
-- Python 🐍
-- Streamlit 📊
+- Python
+- Streamlit
 - Pickle (for loading trained models)
 - scikit-learn (used during model training)
